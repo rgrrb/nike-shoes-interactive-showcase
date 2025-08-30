@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/bgnike.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -10;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1, span {
+    display: none;
+    opacity: 0%;
+    color: white;
+    filter: drop-shadow(2px 11px 55px rgba(0, 0, 0, 0.87));
+    
+}
+h1{
+    font-weight: bold;
+}
+span{
+    font-weight: 800;
+    font-size: 24px;
+}
+div {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.8);
+    overflow: hidden;
+}
+
+div img {
+    rotate: 90deg;
+    height: 410px;
+    transition: 1.2s;
+}
+
+.container-shox {
+    position: relative;
+    isolation: isolate;
+    transition: all 0.5s ease-out;
+    font-size: 16px;
+}
+
+.container-shox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(231, 109, 83, 1) 64%, rgba(238, 155, 101, 1) 80%,
+            rgba(238, 207, 106, 1) 100%);
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+    z-index: -1;
+}
+
+.container-shox:has(img:hover) {
+    display: flex;
+    flex-grow: 1;
+    width: 350%;
+    transition: all 1.2s;
+}
+.container-shox:has(img:hover) h1{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+    transition: all 1.2s;
+}
+.container-shox:has(img:hover) span{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+    transition: all 1.2s;
+    padding: 20px;
+}
+.container-shox:has(img:hover)::before {
+    opacity: 1;
+}
+
+.container-shox img:hover {
+    transition: 1.2s;
+    rotate: 0deg;
+    filter: drop-shadow(2px 11px 55px rgba(0, 0, 0, 0.87));
+}
+
+.container-tn {
+    position: relative;
+    isolation: isolate;
+    transition: all 0.5s ease-out;
+}
+
+.container-tn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(89, 116, 168, 1) 0%, rgba(138, 182, 204, 1) 100%);
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+    z-index: -1;
+}
+
+.container-tn:has(img:hover) {
+    display: flex;
+    flex-grow: 1;
+    width: 350%;
+    transition: all 1.2s;
+}
+.container-tn:has(img:hover) h1{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+    transition: all 1.2s;
+}
+.container-tn:has(img:hover) span{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+    transition: all 1.2s;
+    padding: 20px;
+}
+.container-tn:has(img:hover)::before {
+    opacity: 1;
+}
+
+.container-tn img:hover {
+    transition: 1.2s;
+    rotate: 0deg;
+    filter: drop-shadow(2px 11px 55px rgba(0, 0, 0, 0.87));
+}
+
+.container-95 {
+    position: relative;
+    isolation: isolate;
+    transition: all 0.5s ease-out;
+}
+
+.container-95::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(89, 116, 168, 1) 0%, rgba(242, 211, 211, 1) 100%);
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+    z-index: -1;
+}
+
+.container-95:has(img:hover) {
+    display: flex;
+    flex-grow: 1;
+    width: 350%;
+    transition: all 1.2s;
+    overflow: hidden;
+}
+.container-95:has(img:hover) h1{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+    transition: all 1.2s;
+}
+.container-95:has(img:hover) span{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+    transition: all 1.2s;
+    padding: 20px;
+}
+.container-95:has(img:hover)::before {
+    opacity: 1;
+}
+
+.container-95 img:hover {
+    transition: 1.2s;
+    rotate: 0deg;
+    filter: drop-shadow(2px 11px 55px rgba(0, 0, 0, 0.87));
+}
