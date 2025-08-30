@@ -44,8 +44,7 @@ A interface destaca três modelos clássicos da Nike, cada um com sua própria i
 - **Flexbox** → Alinhamento e distribuição dos elementos  
 - **Pseudo-elementos (::before)** → Fundos com gradiente  
 - **Pseudo-classe (:has())** → Interações complexas baseadas em ações do usuário  
-- **Transitions** → Suavização de animações  
-- **Transforms** → Rotação, escala e translação  
+- **Transitions** → Suavização de animações   
 - **Filters (drop-shadow)** → Efeitos de brilho  
 - **Google Fonts** → Tipografia (*Oswald* e *Roboto Condensed*)  
 
