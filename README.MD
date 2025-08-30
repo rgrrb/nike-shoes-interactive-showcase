@@ -59,7 +59,7 @@ Este é um projeto puramente **front-end**, sem necessidade de instalação comp
 
 ```bash
 git clone https://github.com/rgrrb/nike-shoes-interactive-showcase.git
-
+```
 ## Autor
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/rogerrib/)  
